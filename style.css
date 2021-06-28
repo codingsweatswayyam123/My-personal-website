@@ -30,27 +30,9 @@ img {
     margin-bottom: 50px;
     border-radius: 50%;
 }
-
-.menu {
-    list-style: none;
-    position: fixed;
-    top: 10px;
-    right: 30px;
-    cursor: pointer;
-    z-index: 10;
-}
-
-.links {
-    float: left;
-    color: fuchsia;
-    padding-top: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
-    padding-bottom: 5px;
-    font-family: fantasy;
-    font-size: 20px;
-}
-
+#contact 
+{ background: firebrick; } #contact iframe { width: 100%; } .contact_1 h3 { display: inline; } .contact_1 a { color: white; text-shadow: none; }
+.menu { position: fixed; background: white; width: 100%; margin-top: 0px; top: 0px; z-index: 10; } .links { display: inline; padding-left: 33px; padding-right: 25px; font-family: fantasy; font-size: 20px } .links:hover { font-size: 25px; text-decoration: underline; } html { scroll-behavior: smooth; } a { text-decoration: none; color: crimson; text-shadow: 2px 2px gainsboro; }
 .links:hover {
     background-color: aqua;
 }
